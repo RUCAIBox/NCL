@@ -1,0 +1,16 @@
+load_col:
+  inter: [user_id, business_id, stars]
+ITEM_ID_FIELD: business_id
+RATING_FIELD: stars
+
+user_inter_num_interval: "[15,inf)"
+item_inter_num_interval: "[15,inf)"
+val_interval:
+  stars: "[3,inf)"
+
+reg_weight: 1e-4
+ssl_temp: 0.05
+ssl_reg: 1e-6
+alpha: 1.5
+proto_reg: 1e-7
+num_clusters: 2000

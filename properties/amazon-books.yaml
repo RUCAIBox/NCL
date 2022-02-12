@@ -1,0 +1,14 @@
+load_col:
+  inter: [user_id, item_id, rating]
+
+user_inter_num_interval: "[15,inf)"
+item_inter_num_interval: "[15,inf)"
+val_interval:
+  rating: "[3,inf)"
+
+reg_weight: 1e-6
+ssl_temp: 0.05
+ssl_reg: 1e-6
+alpha: 0.8
+proto_reg: 1e-7
+num_clusters: 2000

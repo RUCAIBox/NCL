@@ -1,0 +1,13 @@
+load_col:
+  inter: [user_id, item_id]
+
+user_inter_num_interval: "[10,inf)"
+item_inter_num_interval: "[10,inf)"
+
+learning_rate: 2e-3
+reg_weight: 1e-4
+ssl_temp: 0.05
+ssl_reg: 1e-6
+alpha: 0.5
+proto_reg: 5e-8
+num_clusters: 10
