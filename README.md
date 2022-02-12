@@ -47,7 +47,7 @@ python main.py --dataset yelp
 
 The implementation is based on the open-source recommendation library [RecBole](https://github.com/RUCAIBox/RecBole).
 
-Please cite the following paper as the reference if you use our codes or the processed datasets.
+Please cite the following papers as the reference if you use our codes or the processed datasets.
 
 ```
 @inproceedings{lin2022ncl,
