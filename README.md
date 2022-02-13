@@ -3,7 +3,7 @@
 This is the official PyTorch implementation for the paper:
 > Zihan Lin*, Changxin Tian*, Yupeng Hou* Wayne Xin Zhao. Improving Graph Collaborative Filtering with Neighborhood-enriched Contrastive Learning. WWW 2022.
 
-# Overview
+## Overview
 
 We propose a contrastive learning paradigm, named Neighborhood-enriched Contrastive Learning (**NCL**), to explicitly capture potential node relatedness into contrastive learning for graph collaborative filtering.
 
@@ -11,7 +11,7 @@ We propose a contrastive learning paradigm, named Neighborhood-enriched Contrast
 <img src="asset/intro.png" style="width: 75%"/>
 </div>
 
-# Requirements
+## Requirements
 
 ```
 recbole==1.0.0
@@ -20,7 +20,7 @@ pytorch==1.7.1
 faiss-gpu==1.7.1
 ```
 
-# Quick Start
+## Quick Start
 
 ```bash
 python main.py --dataset ml-1m
@@ -28,7 +28,7 @@ python main.py --dataset ml-1m
 
 You can replace `ml-1m` to `yelp`, `amazon-books`, `gowalla-merged` or `alibaba` to reproduce the results reported in our paper.
 
-# Datasets
+## Datasets
 
 For `alibaba`, you can download `alibaba.zip` from [Google Drive](https://drive.google.com/file/d/1Th7ii_Z0l6AjGq8zWsKuLVCsacIO1AQJ/view?usp=sharing). Then,
 ```bash
@@ -43,11 +43,11 @@ For others, they will be downloaded automatically via RecBole once you run the m
 python main.py --dataset yelp
 ```
 
-# Acknowledgement
+## Acknowledgement
 
 The implementation is based on the open-source recommendation library [RecBole](https://github.com/RUCAIBox/RecBole).
 
-Please cite the following papers as the reference if you use our codes or the processed datasets.
+Please cite the following papers as the references if you use our codes or the processed datasets.
 
 ```
 @inproceedings{lin2022ncl,
