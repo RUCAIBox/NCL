@@ -43,6 +43,10 @@ For others, they will be downloaded automatically via RecBole once you run the m
 python main.py --dataset yelp
 ```
 
+## Customized datasets
+
+To run NCL on customized datasets, please following https://github.com/RUCAIBox/NCL/issues/1#issuecomment-1076370560.
+
 ## Acknowledgement
 
 The implementation is based on the open-source recommendation library [RecBole](https://github.com/RUCAIBox/RecBole).
