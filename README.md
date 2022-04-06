@@ -18,6 +18,7 @@ recbole==1.0.0
 python==3.7.7
 pytorch==1.7.1
 faiss-gpu==1.7.1
+cudatoolkit==10.1
 ```
 
 ## Quick Start
